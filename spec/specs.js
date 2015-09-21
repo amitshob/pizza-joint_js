@@ -7,8 +7,8 @@ describe('Pizza', function() {
   });
 
   it('returns the total cost of the order', function() {
-    var testPizza = new pizza(2,["cheese","veggies"], "small");
-    expect(testPizza.cost()).to.equal(tbd)
+    var testPizza = new Pizza(2, ["cheese","veggies"], "small");
+    expect(testPizza.cost()).to.equal(16);
   });
-
+  
 });
