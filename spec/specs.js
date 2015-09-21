@@ -10,5 +10,5 @@ describe('Pizza', function() {
     var testPizza = new Pizza(2, ["cheese","veggies"], "small");
     expect(testPizza.cost()).to.equal(16);
   });
-  
+
 });

@@ -8,9 +8,29 @@
     <title>Tic Tac Toe</title>
   </head>
   <body>
-
-    
-
-
+    <div class = "container">
+      <div class ="main-content">
+        <h2 id="page-lead"> Pizza Joint</h2>
+          <form id = "pizza selections">
+             <div class="form-group">
+                <label for="pizza-quantity">Select Quantity</label>
+                <input class="form-control" type="text" name="pizza-quantity" id="pizza-quantity">
+             </div>
+              <br> <br>
+            <div class="form-group">
+                 <label for="pizza-toppings">List Toppings (separated by comma)</label>
+                 <input class="form-control" type="text" name="pizza-toppings" id="pizza-toppings" placeholder="veggies, mushrooms">
+                 <p><i>Topping options- Extra cheese, Pepperoni, veggies, mushrooms, pepper, chicken</i></p>
+             </div>
+             <br>
+             <select id="size">
+                <option>Select Size</option>
+                <option value="large">Large</option>
+                <option value="medium">Medium</option>
+                <option value="small">Small</option>
+            </select>
+            <br><br>
+            <button class="btn btn-info" type="submit">Total Order</button>
+          </form>
   </body>
 </html>
