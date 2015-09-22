@@ -21,9 +21,9 @@ $(function(){
   $("form.pizza-selections").submit(function(event){
     event.preventDefault();
 
-    var pizza-quantity = parseInt($("#pizza-quantity").val());
-    var pizza-toppings = $("#pizza-toppings").val();
-    var size = $("select#size").val();
+    var quantity = parseInt($("#pizza-quantity").val());
+    var toppings = $("#pizza-toppings").val();
+    var pizzaSize = $("select#size").val();
     var testPizza = new Pizza(quantity, toppings, pizzaSize);
     var cost = testPizza.cost();
 
