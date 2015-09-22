@@ -6,7 +6,7 @@ this.pizzaSize = pizzaSize;
 
 Pizza.prototype.cost = function() {
   var total_cost = 0;
-  var this.toppings = this.toppings.split(",");
+  // var this.toppings = this.toppings.split(",");
   if (this.pizzaSize === "small") {
     total_cost = this.quantity*((6 + (this.toppings.length)*1));
   } else if (this.pizzaSize === "medium"){
