@@ -18,7 +18,7 @@ Pizza.prototype.cost = function() {
 };
 
 $(function(){
-  $("form.pizza-selections").submit(function(event){
+  $("form#pizza-selections").submit(function(event){
     event.preventDefault();
 
     var quantity = parseInt($("#pizza-quantity").val());
